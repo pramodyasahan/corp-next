@@ -16,9 +16,10 @@ export default function Hero(props: HeroProps) {
                        alt={props.imgAlt}
                        fill
                        style={{objectFit: 'cover'}}/>
+                <div className='absolute inset-0 bg-gradient-to-r from-slate-900'/>
             </div>
             <div className='pt-48 flex justify-center items-center'>
-                <h1>
+                <h1 className='felx text-white text-7xl items-center'>
                     {props.title}
                 </h1>
 
